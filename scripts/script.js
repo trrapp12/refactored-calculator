@@ -1,18 +1,34 @@
-
+console.log('hello');
 
 function hello () {
   alert ("Hello World");
 }
 
-function getUserInput () {
-    let number1 = Number(prompt ("what is your first number?"));
 
-    let operator = prompt ("What operation do you want to perform?");
 
-    let number2 = Number(prompt ("What is your second number?"));
+function userInputNumber (value) {
+  let userInputNumberArr = [];
+  userInputNumberArr.push(Number(value));
+  // document.getElementByClass('display').innerHTML = userInputNumberArr;
+  console.log(userInputNumberArr);
 
-    return performOperation (number1, number2, operator);
-  }
+}
+
+function userInputSymbol (value) {
+  let userInputSymbolArr = []
+  arr.push(value);
+  console.log(arr);
+}
+
+// function getUserInput () {
+//     let number1 =
+//
+//     let operator =
+//
+//     let number2 =
+//
+//     return performOperation (number1, number2, operator);
+//   }
 
 // getUserInput();
 
