@@ -1,5 +1,9 @@
 
 
+function hello () {
+  alert ("Hello World");
+}
+
 function getUserInput () {
     let number1 = Number(prompt ("what is your first number?"));
 
