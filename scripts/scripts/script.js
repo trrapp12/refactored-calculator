@@ -14,7 +14,7 @@ function getUserInput () {
     return performOperation (number1, number2, operator);
   }
 
-getUserInput();
+// getUserInput();
 
 function performOperation (number1, number2, operator) {
     if (operator === "+") {
