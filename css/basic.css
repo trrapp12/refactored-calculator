@@ -4,9 +4,9 @@
 }
 
 .display {
-  -webkit-box-shadow: inset 3px -1px 53px -4px rgba(0,0,0,0.35);
-  -moz-box-shadow: inset 3px -1px 53px -4px rgba(0,0,0,0.35);
-  box-shadow: inset 3px -1px 53px -4px rgba(0,0,0,0.35);
+  -webkit-box-shadow: inset 10px -1px 70px -4px rgba(200,200,200,0.35);
+  -moz-box-shadow: inset 10px -1px 70px -4px rgba(200,200,200,0.35);
+  box-shadow: inset 10px -1px 70px -4px rgba(200,200,200,0.35);
   height: 200px;
   width: 100%;
   margin-top: 2em;
@@ -15,9 +15,6 @@
   margin-right: auto;
   opacity: 100%;
 }
-
-
-
 
 button:hover { transform: scale(1.03); }
 
@@ -81,11 +78,11 @@ form {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0;
-  animation: images 24s linear infinite;
-  -moz-animation: images 24s linear infinite;
-  -o-animation: images 24s linear infinite;
-  -ms-animation: images 24s linear infinite;
-  -webkit-animation: images 24s linear infinite;
+  animation: images 42s linear infinite;
+  -moz-animation: images 42s linear infinite;
+  -o-animation: images 42s linear infinite;
+  -ms-animation: images 42s linear infinite;
+  -webkit-animation: images 42s linear infinite;
   list-style-type: none;
 }
 
@@ -94,7 +91,7 @@ form {
 }
 
 .background-slider li:nth-child(2) {
-  background-image: url("../images/phototwo.jpg");
+  background-image: url("../images/white.jpeg");
   animation-delay: 6s;
   -ms-nimation-delay: 6s;
   -moz-nimation-delay: 6s;
@@ -103,7 +100,7 @@ form {
 }
 
 .background-slider li:nth-child(3) {
-  background-image: url("../images/photothree.jpg");
+  background-image: url("../images/phototwo.jpg");
   animation-delay: 12s;
   -ms-nimation-delay: 12s;
   -moz-nimation-delay: 12s;
@@ -112,12 +109,48 @@ form {
 }
 
 .background-slider li:nth-child(4) {
-  background-image: url("../images/photofour.jpeg");
+  background-image: url("../images/white.jpeg");
   animation-delay: 18s;
   -ms-nimation-delay: 18s;
   -moz-nimation-delay: 18s;
   -o-nimation-delay: 18s;
   -webkit-nimation-delay: 18s;
+}
+
+.background-slider li:nth-child(5) {
+  background-image: url("../images/photothree.jpg");
+  animation-delay: 24s;
+  -ms-nimation-delay: 24s;
+  -moz-nimation-delay: 24s;
+  -o-nimation-delay: 24s;
+  -webkit-nimation-delay: 24s;
+}
+
+.background-slider li:nth-child(6) {
+  background-image: url("../images/white.jpeg");
+  animation-delay: 32s;
+  -ms-nimation-delay: 32s;
+  -moz-nimation-delay: 32s;
+  -o-nimation-delay: 32s;
+  -webkit-nimation-delay: 32s;
+}
+
+.background-slider li:nth-child(7) {
+  background-image: url("../images/photofour.jpeg");
+  animation-delay: 38s;
+  -ms-nimation-delay: 38s;
+  -moz-nimation-delay: 38s;
+  -o-nimation-delay: 38s;
+  -webkit-nimation-delay: 38s;
+}
+
+.background-slider li:nth-child(8) {
+  background-image: url("../images/white.jpeg");
+  animation-delay: 42s;
+  -ms-nimation-delay: 42s;
+  -moz-nimation-delay: 42s;
+  -o-nimation-delay: 42s;
+  -webkit-nimation-delay: 42s;
 }
 
 @keyframes images {
@@ -163,4 +196,6 @@ button {
   break: left;
   margin: 0;
   padding: 0;
+  color: rgba(176, 176, 176, 1);
+
 }
