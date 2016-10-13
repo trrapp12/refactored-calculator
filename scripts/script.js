@@ -5,19 +5,26 @@ function hello () {
 }
 
 
+let userInputArr = [];
+let currentNum = "";
 
 function userInputNumber (value) {
-  let userInputNumberArr = [];
-  userInputNumberArr.push(Number(value));
-  // document.getElementByClass('display').innerHTML = userInputNumberArr;
-  console.log(userInputNumberArr);
+        // userInputArr.push(Number(value));
+        currentNum += (value)
+        console.log(userInputArr, currentNum);
+        document.querySelector('.display').innerHTML = currentNum;
+        console.log(userInputArr, currentNum);
+  }
 
-}
 
 function userInputSymbol (value) {
-  let userInputSymbolArr = []
-  arr.push(value);
-  console.log(arr);
+  userInputArr.push(currentNum);
+  currentNum = "";
+  userInputArr.push(value);
+  console.log(userInputArr, currentNum);
+  document.querySelector('.display').innerHTML = currentNum;
+  console.log(userInputArr, currentNum);
+
 }
 
 // function getUserInput () {
