@@ -12,7 +12,7 @@ function userInputNumber (value) {
         // userInputArr.push(Number(value));
         currentNum += (value)
         console.log(userInputArr, currentNum);
-        document.querySelector('.display').innerHTML += currentNum;
+        document.querySelector('.display').innerHTML = currentNum;
         console.log(userInputArr, currentNum);
   }
 
