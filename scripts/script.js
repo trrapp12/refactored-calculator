@@ -7,6 +7,7 @@
 
 let userInputArr = [];
 let currentNum = "";
+let isRad = 1
 
 function userInputNumber (value) {
         // userInputArr.push(Number(value));
@@ -18,6 +19,7 @@ function userInputNumber (value) {
 
 
 function userInputSymbol (value) {
+  userInputArr = userInputArr.filter(e => e != "");
   userInputArr.push(currentNum);
   currentNum = "";
   userInputArr.push(value);
@@ -61,7 +63,61 @@ function performOperation (number1, operator, number2) {
       let answer = divide (number1, number2);
         return answer;
     }
-}
+
+    if (operator === "√") {
+      let answer = Math.sqrt(number1)
+        return answer;
+    }
+
+    if (operator === "∛") {
+      let answer = Math.pow(number1, (1 / 3))
+        return answer;
+    }
+
+    if (operator === "a³") {
+      let answer = Math.pow(number1, 3)
+        return answer;
+    }
+
+    if (operator === "log") {
+      let answer = Math.log(number1)
+        return answer;
+    }
+
+    if (operator === "sin") {
+      if (isRad === 1) {
+        let answer = Math.sin(number1);
+      }
+      else {
+        let answer = Math.sin(number1 * Math.PI/180);
+          return answer;
+      };
+    };
+
+    if (operator === "cos") {
+      if (isRad === 1) {
+        let answer = Math.cos(number1);
+      }
+      else {
+        let answer = Math.cos(number1 * Math.PI/180);
+          return answer;
+      };
+    };
+
+    if (operator === "tan") {
+      if (isRad === 1) {
+        let answer = Math.tan(number1);
+      }
+      else {
+        let answer = Math.tan(number1 * Math.PI/180);
+          return answer;
+      };
+    };
+
+    // if (operator === "π") {
+    //   return userInputNumber (Math.PI)
+    // };
+};
 
 
 function add (number1, number2) {
@@ -92,4 +148,14 @@ function myOnClick () {
 
   console.log(answer);
   document.querySelector('.display').innerHTML = answer;
+}
+
+function setRad () {
+  switch(isRad) {
+    case 1: document.getElementById('rad').innerHTML = "deg";
+    break;
+    case -1: document.getElementById('rad').innerHTML = "rad";
+    break;
+    }
+    isRad *= -1;
 }
