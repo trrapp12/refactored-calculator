@@ -152,9 +152,9 @@ function myOnClick () {
 
 function setRad () {
   switch(isRad) {
-    case 1: document.getElementById('rad').innerHTML = "deg";
+    case 1: document.getElementById('pause').innerHTML = "pause";
     break;
-    case -1: document.getElementById('rad').innerHTML = "rad";
+    case -1: document.getElementById('pause').innerHTML = "rad";
     break;
     }
     isRad *= -1;

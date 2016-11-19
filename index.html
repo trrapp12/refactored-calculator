@@ -4,19 +4,32 @@
     <meta charset="utf-8">
     <title>Calculator</title>
     <link rel="stylesheet" href="css/basic.css" media="screen" title="no title">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Codystar|Dynalight|Geostar|Iceberg|Raleway+Dots|Stint+Ultra+Expanded" rel="stylesheet">
+    <script src="https://use.fontawesome.com/85f1f0cb40.js"></script>
+    <script src= "scripts/animation.js" type="text/javascript"></script>
   </head>
   <body>
 
     <div class="container">
       <div class="rad">
+        <button id="pause" class="shape" value="pause" type="button" name="button" onclick="pause ()">
+          <div class="icon zmdi zmdi-play btn text" style="font-size:2em; text-align:center; padding-top: 5px">
+          </div>
+      </button>
+
         <button id="rad" class="shape" value="rad" type="button" name="button" onclick="setRad()">rad</button>
-        <button id="radII" class="shape" value="rad" type="button" name="button" onclick="setRad()">rad</button>
       </div>
       <ul class="background-slider">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li id="switch1"></li>
+        <li id="switch2"></li>
+        <li id="switch3"></li>
+        <li id="switch4"></li>
+        <li id="switch5"></li>
+        <li id="switch6"></li>
+        <li id="switch7"></li>
+        <li id="switch8"></li>
+
       </ul>
       <div class="margins">
         <div class="display">
@@ -75,29 +88,9 @@
 
             </div>
           </div>
+        </form>
         </div>
       </div>
-    </form>
   </body>
-  <script src= "scripts/script.js" type="text/javascript">
-  </script>
+  <script src= "scripts/script.js" type="text/javascript"></script>
 </html>
-
-
-
-
-<!-- arbitrary exponent -->
-
-
-<!-- arbitrary root
-log
-sin
-cos
-tan
-sinh
-cosh
-tanh
-Scientific calculator values
-
-pi
-e -->
