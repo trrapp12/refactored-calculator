@@ -12,6 +12,7 @@ let themes = {
     "url('images/matrix/1.png')",
     "url('images/matrix/2.jpg')",
     "url('images/matrix/3.jpg')",
+    "url('images/matrix/4.jpg')",
   ],
 };
 
