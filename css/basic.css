@@ -90,7 +90,7 @@ form {
 }
 
 #switch1 {
-  background-image:url("../images/photoone.jpg");
+  background-image:url("../images/astronomy/1.jpg");
 }
 
 #switch2 {
@@ -102,8 +102,8 @@ form {
   -webkit-nimation-delay: 6s;
 }
 
-/*#switch3 {
-  background-image: url("../images/phototwo.jpg");
+#switch3 {
+  background-image: url("../images/astronomy/3.jpg");
   animation-delay: 12s;
   -ms-nimation-delay: 12s;
   -moz-nimation-delay: 12s;
@@ -121,7 +121,7 @@ form {
 }
 
 #switch5 {
-  background-image: url("../images/photothree.jpg");
+  background-image: url("../images/astronomy/4.jpeg");
   animation-delay: 24s;
   -ms-nimation-delay: 24s;
   -moz-nimation-delay: 24s;
@@ -139,7 +139,7 @@ form {
 }
 
 #switch7 {
-  background-image: url("../images/photofour.jpeg");
+  background-image: url("../images/astronomy/4.jpeg");
   animation-delay: 38s;
   -ms-nimation-delay: 38s;
   -moz-nimation-delay: 38s;
@@ -162,7 +162,7 @@ form {
   25% {opacity: 1; transform: scale(1);}
   50% {opacity: 0; transform: scale(2);}
   100% {opacity: 0;}
-}*/
+}
 
 @-moz-keyframes images {
   0% {opacity: 0; animation-timing-function: ease-in;}
