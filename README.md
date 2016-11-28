@@ -17,11 +17,23 @@
 ###This project demonstrates the following:
 ---
 
-- [x] Create a HTML and JavaScript calculator.
-- [ ] perform math on two single digit integers.
+- [x] create a HTML and JavaScript calculator.
+- [x] perform math on multiple integers.
+- [x] handle operations from simple arithmatic to advanced functions like sin, cos, tan, √, ∛, π, a<sup>3</sup>.
+- [x] functionality to switch between radian and degrees for all sin, cos, and tan equations.
 - [x] a button with the equals sign.
 - [x] buttons for numbers 0-9.
-- [x] buttons for each of the 4 basic math operators and remainder/modulo (+, -, /, *, and %)
+- [x] buttons for the following operators (+, -, /, *, sin, cos, tan, √, ∛, π, a<sup>3</sup> ), 
+
+#####Ways I challenged myself
+
+- [x] created a desktop screen saver effect using multiple layers of CSS.
+- [x] use z-index, knowledge of positioning and layering, and animation transitions to make the scenes fade in and out in regularly timed intervals.
+- [x] create an array of objects referencing multiple photos.
+- [x] refactor hard coded CSS and replaced it with JavaScript functionality to iterate through the arrays in the animation process.
+- [x] refactor so that the array of pictures could be modified into and array of theme objects, with each theme containing pictures that can be interated through.
+- [x] create JavaScript functionality that allows a user to select a theme, which then alters the CSS according to event handlers.
+- [x] added JavaScript pause functionality for the animation to help increase 508 compliance. 
 
 <br/>
 <br/>
