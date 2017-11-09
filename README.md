@@ -1,7 +1,8 @@
 # Refactored Calculator
 ---
+![calculator](https://user-images.githubusercontent.com/11747875/32584891-f15a8e06-c4b7-11e7-9cbf-d4a102751962.gif)
 
-![Refactored Calculator screen-shot](https://cloud.githubusercontent.com/assets/11747875/20289113/230877ee-aa95-11e6-9101-a2ca9d9eb93f.png)
+
 
 <br/>
 <br/>
@@ -26,6 +27,9 @@
 - [x] buttons for the following operators (+, -, /, *, sin, cos, tan, √, ∛, π, a<sup>3</sup> ), 
 
 ### Ways I challenged myself
+___
+![Refactored Calculator screen-shot](https://cloud.githubusercontent.com/assets/11747875/20289113/230877ee-aa95-11e6-9101-a2ca9d9eb93f.png)
+
 
 - [x] created a desktop screen saver effect using multiple layers of CSS.
 - [x] use z-index, knowledge of positioning and layering, and animation transitions to make the scenes fade in and out in regularly timed intervals.
