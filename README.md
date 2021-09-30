@@ -19,13 +19,16 @@
 
 ---
 
-### Rules of the Game:
+### How To Use:
 ---
 
-1. The app starts by choosing a random word
-2. The player can guess a single letter at a time
-3. The player has a fixed number of turns in which to guess all of the letters in the word
-4. The app should indicate when the player has won or lost
+Functionality is similar to any calculator.  
+- Click in the first number or series of number in the calculations
+- Click on the operator or operation you wish to perform
+- Click on the second number you wish to include
+- Continue process for as many numbers and operations as you wish
+- Click the "=" sign. 
+- View the answer.
 
 ### This project demonstrates the following:
 ---
@@ -42,14 +45,15 @@
 ___
 ![Refactored Calculator screen-shot](https://cloud.githubusercontent.com/assets/11747875/20289113/230877ee-aa95-11e6-9101-a2ca9d9eb93f.png)
 
+So when you are beginning to learn any new skill, as you start to learn more and more things you get excited about the all the incredible new things you can do.  And sometimes those things are eclectic, almost disparate.  But your enthusiasm pushes you to reach out in several directions at once.  This is kind of what happened here.  While working with a project designed to create something very functional using very functional JavaScript, I suddenly got an idea wondering if I could use JavaScript to create an array of photos which could be played as screensavers.  It had absolutely nothing to do with the current project, but my enthusiasm won out, so I created the only calculator that comes complete with a screen-saver.  But in the process I learnd how to do the following: 
 
-- [x] created a desktop screen saver effect using multiple layers of CSS.
+- [x] create a desktop screen saver effect using multiple layers of CSS.
 - [x] use z-index, knowledge of positioning and layering, and animation transitions to make the scenes fade in and out in regularly timed intervals.
 - [x] create an array of objects referencing multiple photos.
 - [x] refactor hard coded CSS and replaced it with JavaScript functionality to iterate through the arrays in the animation process.
 - [x] refactor so that the array of pictures could be modified into and array of theme objects, with each theme containing pictures that can be interated through.
 - [x] create JavaScript functionality that allows a user to select a theme, which then alters the CSS according to event handlers.
-- [x] added JavaScript pause functionality for the animation to help increase 508 compliance. 
+- [x] add JavaScript pause functionality for the animation to help increase 508 compliance. 
 
 
 ###  Project published at: 
