@@ -59,7 +59,7 @@ So when you are beginning to learn any new skill, as you start to learn more and
 ###  Project published at: 
 ---
 
-[Refactored Calculator](https://trrapp12-ironyard.github.io/refactored-calculator/)
+[Refactored Calculator](https://trrapp12.github.io/refactored-calculator/)
 ### More Information:
 ---
 
