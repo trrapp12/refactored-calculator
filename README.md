@@ -1,5 +1,6 @@
 # Refactored Calculator
----
+<br>
+[![View Project](https://user-images.githubusercontent.com/11747875/141673311-b2715054-26e2-40a8-9ed1-12563fc392b9.png)](https://trrapp12.github.io/refactored-calculator/)
 ![calculator](https://user-images.githubusercontent.com/11747875/32584891-f15a8e06-c4b7-11e7-9cbf-d4a102751962.gif)
 
 <br/>
