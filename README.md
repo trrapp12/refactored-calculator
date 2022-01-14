@@ -36,7 +36,7 @@ Functionality is similar to any calculator.
 - Click the "=" sign. 
 - View the answer.
 
-### version 2.0 demonstrates
+### Version 2.0 demonstrates
 ___
 ![Refactored Calculator screen-shot](https://cloud.githubusercontent.com/assets/11747875/20289113/230877ee-aa95-11e6-9101-a2ca9d9eb93f.png)
 
