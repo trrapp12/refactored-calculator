@@ -41,7 +41,10 @@ Functionality is similar to any calculator.
 
 ![Refactored Calculator screen-shot](https://cloud.githubusercontent.com/assets/11747875/20289113/230877ee-aa95-11e6-9101-a2ca9d9eb93f.png)
 
-<br> *So when you are beginning to learn any new skill, as you start to learn more and more things you get excited about the all the incredible new things you can do.  And sometimes those things are eclectic, almost disparate.  But your enthusiasm pushes you to reach out in several directions at once.  This is kind of what happened here.  While working with a project designed to create something very functional using very functional JavaScript, I suddenly got an idea wondering if I could use JavaScript to create an array of photos which could be played as screensavers.  It had absolutely nothing to do with the current project, but my enthusiasm won out, so I created the only calculator that comes complete with a screen-saver.  But in the process I learnd how to do the following: *
+<br> 
+
+*So when you are beginning to learn any new skill, as you start to learn more and more things you get excited about the all the incredible new things you can do.  And sometimes those things are eclectic, almost disparate.  But your enthusiasm pushes you to reach out in several directions at once.  This is kind of what happened here.  While working with a project designed to create something very functional using very functional JavaScript, I suddenly got an idea wondering if I could use JavaScript to create an array of photos which could be played as screensavers.  It had absolutely nothing to do with the current project, but my enthusiasm won out, so I created the only calculator that comes complete with a screen-saver.  But in the process I learnd how to do the following:*
+
 <br>
 
 🆕 **Improvement #1:** As a user, it would be nice to have a desktop screen saver effect using multiple layers of CSS.
