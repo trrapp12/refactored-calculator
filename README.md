@@ -29,10 +29,10 @@
 ---
 
 Functionality is similar to any calculator.  
-- Click in the first number or series of number in the calculations
+- Click on the first number or series of numbers in the calculations
 - Click on the operator or operation you wish to perform
 - Click on the second number you wish to include
-- Continue process for as many numbers and operations as you wish
+- Continue the process for as many numbers and operations as you wish
 - Click the "=" sign. 
 - View the answer.
 
@@ -43,19 +43,19 @@ Functionality is similar to any calculator.
 
 <br> 
 
-*So when you are beginning to learn any new skill, as you start to learn more and more things you get excited about the all the incredible new things you can do.  And sometimes those things are eclectic, almost disparate.  But your enthusiasm pushes you to reach out in several directions at once.  This is kind of what happened here.  While working with a project designed to create something very functional using very functional JavaScript, I suddenly got an idea wondering if I could use JavaScript to create an array of photos which could be played as screensavers.  It had absolutely nothing to do with the current project, but my enthusiasm won out, so I created the only calculator that comes complete with a screen-saver.  But in the process I learnd how to do the following:*
+*So when you are beginning to learn any new skill, as you start to learn more and more things you get excited about all the incredible new things you can do.  And sometimes those things are eclectic, almost disparate.  But your enthusiasm pushes you to reach out in several directions at once.  This is kind of what happened here.  While working on a project designed to create something very functional using very functional JavaScript, I suddenly got an idea wondering if I could use JavaScript to create an array of photos that could be played as screensavers.  It had absolutely nothing to do with the current project, but my enthusiasm won out, so I created the only calculator that comes complete with a screen-saver.  But in the process, I learned how to do the following:*
 
 <br>
 
-🆕 **Improvement #1:** As a user, it would be nice to have a desktop screen saver effect using multiple layers of CSS.
+🆕 **Improvement #1:** As a user, it would be nice to have a desktop screen-saver effect using multiple layers of CSS.
 
 🆕 **Improvement #2:** z-index, knowledge of positioning and layering, and animation transitions to make the scenes fade in and out in regularly timed intervals.
 
 🆕 **Improvement #3:** uses an array of objects referencing multiple photos.
 
-🆕 **Improvement #4:** refactored hard coded CSS and replaced it with JavaScript functionality to iterate through the arrays in the animation process.
+🆕 **Improvement #4:** refactored hard-coded CSS and replaced it with JavaScript functionality to iterate through the arrays in the animation process.
 
-🆕 **Improvement #5:** refactorecd so that the array of pictures could be modified into and array of theme objects, with each theme containing pictures that can be interated through.
+🆕 **Improvement #5:** refactored so that the array of pictures could be modified into an array of theme objects, with each theme containing pictures that can be iterated through.
 
 🆕 **Improvement #6:** As a user, I should be able to select a theme, which then alters the CSS according to event handlers.
 
@@ -67,11 +67,11 @@ Functionality is similar to any calculator.
 
 - [x] **User Story #1:** Utilizes HTML and JavaScript.
 - [x] **User Story #2:** As a user, I should be able to perform math on multiple integers.
-- [x] **User Story #3:** As a user, I should be able to handle operations from simple arithmatic to advanced functions like sin, cos, tan, √, ∛, π, a<sup>3</sup>.
+- [x] **User Story #3:** As a user, I should be able to handle operations from simple arithmetic to advanced functions like sin, cos, tan, √, ∛, π, a<sup>3</sup>.
 - [x] **User Story #4:** As a user, I should be able to switch between radian and degrees for all sin, cos, and tan equations.
-- [x] **User Story #5:** As a user, I should be have for the equals sign.
+- [x] **User Story #5:** As a user, I should have a button for the equals sign.
 - [x] **User Story #6:** As a user, I should have buttons for numbers 0-9.
-- [x] **User Story #7:** As a user, I should have buttons for following operators (+, -, /, *, sin, cos, tan, √, ∛, π, a<sup>3</sup> ), 
+- [x] **User Story #7:** As a user, I should have buttons for the following operators (+, -, /, *, sin, cos, tan, √, ∛, π, a<sup>3</sup> ), 
 
 
 
