@@ -84,9 +84,12 @@ Functionality is similar to any calculator.
 
 🆕 **Improvement #7:** As a user, I should be able to add JavaScript pause functionality for the animation to help increase 508 compliance. 
 
+<br/>
 
-### Version 1.0 demonstrates:
 ---
+
+### VERSION 1.0 DEMONSTRATES:
+
 
 - [x] **User Story #1:** Utilizes HTML and JavaScript.
 - [x] **User Story #2:** As a user, I should be able to perform math on multiple integers.
@@ -96,15 +99,35 @@ Functionality is similar to any calculator.
 - [x] **User Story #6:** As a user, I should have buttons for numbers 0-9.
 - [x] **User Story #7:** As a user, I should have buttons for the following operators (+, -, /, *, sin, cos, tan, √, ∛, π, a<sup>3</sup> ), 
 
+<br/>
 
-
-
-###  Project published at: 
 ---
 
-[Refactored Calculator](https://trrapp12.github.io/refactored-calculator/)
+### CHALLENGES I OVERCAME
 
-### More Information:
+- [X] This was one of my very early projects, so the challenges were just bringing together all the concepts of iterating, creating logic out of if and or statements, and the whole syntax of it.
+
+<br/>
+
 ---
+
+### MY OWN PERSONAL CONTRIBUTIONS INCLUDED:
+
+- [X] all work is completely my own.  The only directions were user stories the assignment needed to complete.
+
+<br/>
+
+---
+
+### ATTRIBUTIONS: 
+
+* photos from Pexel
+
+<br/>
+
+---
+
+### YOU CAN FIND ME AT:
 
 \**For more information see my [LinkedIn](https://www.linkedin.com/in/trevor-rapp-042a1037) or return to my [Github](https://github.com/trrapp12)*
+
