@@ -6,6 +6,8 @@
 
 *All work is my own.  This was completed as part of the Coding Camp, now [V-School](vschool.io), bootcamp.*
 
+<br/>
+
 [![View Project](https://user-images.githubusercontent.com/11747875/141673311-b2715054-26e2-40a8-9ed1-12563fc392b9.png)](https://trrapp12.github.io/refactored-calculator/)
 
 <br>
@@ -25,12 +27,25 @@
 <img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
 
 <br>
+
+---
+
+### DESCRIPTION:
+
+<br/>
+
+>There's like ten minutes when it's like, 'Okay, wait, who is this guy again?' And then, you know, I just put on the calculator watch and the >glasses, and just be all, you know, inappropriate. And then it just works out fine.
+>
+> --Rainn Wilson
+
+*So when you are beginning to learn any new skill, as you start to learn more and more things you get excited about all the incredible new things you can do.  And sometimes those things are eclectic, almost disparate.  But your enthusiasm pushes you to reach out in several directions at once.  This is kind of what happened here.  While working on a project designed to create something very functional using very functional JavaScript, I suddenly got an idea wondering if I could use JavaScript to create an array of photos that could be played as screensavers.  It had absolutely nothing to do with the current project, but my enthusiasm won out, so I created the only calculator that comes complete with a screen-saver.  But in the process, I learned quite a bit.*
+
 <br>
+<br/>
 
 ---
 
-### How To Use:
----
+### QUICKSTART GUIDE
 
 Functionality is similar to any calculator.  
 - Click on the first number or series of numbers in the calculations
@@ -40,16 +55,18 @@ Functionality is similar to any calculator.
 - Click the "=" sign. 
 - View the answer.
 
-### Version 2.0 demonstrates
+<br/>
+
 ---
+
+### VERSION 2.0 DEMONSTRATES
+
 
 ![Refactored Calculator screen-shot](https://cloud.githubusercontent.com/assets/11747875/20289113/230877ee-aa95-11e6-9101-a2ca9d9eb93f.png)
 
 <br> 
 
-*So when you are beginning to learn any new skill, as you start to learn more and more things you get excited about all the incredible new things you can do.  And sometimes those things are eclectic, almost disparate.  But your enthusiasm pushes you to reach out in several directions at once.  This is kind of what happened here.  While working on a project designed to create something very functional using very functional JavaScript, I suddenly got an idea wondering if I could use JavaScript to create an array of photos that could be played as screensavers.  It had absolutely nothing to do with the current project, but my enthusiasm won out, so I created the only calculator that comes complete with a screen-saver.  But in the process, I learned how to do the following:*
 
-<br>
 
 🆕 **Improvement #1:** As a user, it would be nice to have a desktop screen-saver effect using multiple layers of CSS.
 
